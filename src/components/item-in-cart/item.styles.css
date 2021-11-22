@@ -1,0 +1,35 @@
+img{
+  width: 100%;
+    max-width: 200px;
+    height: 200px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    height: 50vh;
+  }
+  button{
+    width: 70px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .increase{
+    background-color: #49FF00;
+  }
+  .decrease{
+      background-color: #FF0000;
+  }
+  .buttons{
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
